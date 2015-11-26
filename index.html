@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="area.css">
+	</head>
+	<body>
+		<div class="form-row clearfix area-row">
+			<div class="form-label">地区联动</div>
+			<div class="form-input">
+				<div class="area-input">
+					<div class="area province">
+						<input type="hidden" id="hd_province">
+						<span>-- 省份 --</span><i></i>
+						<div class="area-content"></div>
+					</div>
+					<div class="area city">
+						<input type="hidden" id="hd_city">
+						<span>-- 城市 --</span><i></i>
+						<div class="area-content"><ul></ul></div>
+					</div>
+					<div class="area downtown">
+						<input type="hidden" id="hd_downtown">
+						<span>-- 市区 --</span><i></i>
+						<div class="area-content"><ul></ul></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="jquery-1.9.1.min.js"></script>
+		<script src="area-data.js"></script>
+		<script src="area.js"></script>
+		<script>
+		Area.init("area.json");
+		</script>
+	</body>
+</html>
