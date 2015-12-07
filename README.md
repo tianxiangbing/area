@@ -3,6 +3,12 @@
 
 手机版的地区三级联动请至 [mobile-select-area](https://github.com/tianxiangbing/mobile-select-area)
 
+效果图如下：
+
+![mobile-select-area](example/area.jpg)
+
+例子见[DEMO](http://www.lovewebgames.com/jsmodule/area.html)
+
 ##js:
         <script src="jquery-1.9.1.min.js"></script>
         <script src="area-data.js"></script>
